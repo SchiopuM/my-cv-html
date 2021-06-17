@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 33px;
+}
+
+.container-head {
+  width: 943px;
+  margin: 0 auto;
+  margin-bottom: 104px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #828282;
+  font-style: 18px;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+
+.menu li {
+  margin-right: auto;
+}
+
+.menu {
+  display: flex;
+  padding-bottom: 31.86px;
+  margin-bottom: 39.7px;
+  border-bottom: 1px solid #828282;
+}
+
+#last-el {
+  margin-right: 3px;
+}
+
+.personal-information {
+  display: flex;
+  align-items: center;
+  margin-bottom: 49.7px;
+}
+
+.personal-information h1 {
+  font-size: 34px;
+  width: 175px;
+  margin-top: -10px;
+}
+
+.personal-information p {
+  font-size: 18px;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.language {
+  display: flex;
+  transform: rotate(-90deg);
+  margin: -25px;
+}
+
+.language a {
+  text-decoration: none;
+  color: #828282;
+  font-family: "Noto Sans JP";
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+#eng {
+  border-right: 2px solid black;
+  color: black;
+}
+.container-head img {
+  width: auto;
+}
+
+.avatar {
+  width: auto;
+  height: 387px;
+  background: url("/img/IMG_2690.jpg") no-repeat center top / cover;
+}
+
+.about {
+  background-color: #f6f6f6;
+}
+
+.about-container {
+  padding-top: 120.25px;
+  text-align: center;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+.about-container h2 {
+  font-size: 34px;
+}
+
+.about-container p {
+  width: 485px;
+  font-size: 18px;
+  margin: 15px auto;
+}
+
+.projects {
+  display: flexbox;
+}
+
+.projects a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.projects img {
+  width: 936px;
+  margin: 70px auto 20px auto;
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.skills-container h2 {
+  text-align: center;
+  font-size: 34px;
+}
+.skills-container p {
+  text-align: center;
+  font-size: 18px;
+  margin: 70px auto;
+}
+
+.skills-container {
+  margin: 0 auto;
+  width: 940px;
+}
+#last-img {
+  margin-right: 0;
+}
+.icons img {
+  height: 90px;
+  margin-right: 85px;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container h2 {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+.contacts {
+  margin-bottom: 50px;
+}
+.contacts a img {
+  height: 30px;
+  margin-right: 40px;
+}
+#last-con {
+  margin-right: 0;
+}
+.inspire {
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.inspire p {
+  margin-bottom: 5px;
+}
+
+.inspire a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.inspire a:hover {
+  color: #000;
+}
