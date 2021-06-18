@@ -25,6 +25,7 @@ li {
 
 header {
   padding-top: 33px;
+  margin-bottom: 100px;
 }
 
 .container-head {
@@ -36,7 +37,7 @@ header {
 .menu li a {
   text-decoration: none;
   color: #828282;
-  font-style: 18px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -99,10 +100,8 @@ header {
   width: auto;
 }
 
-.avatar {
-  width: auto;
-  height: 387px;
-  background: url("/img/IMG_2690.jpg") no-repeat center top / cover;
+.avatar img {
+  width: 943px;
 }
 
 .about {
@@ -123,10 +122,6 @@ header {
   width: 485px;
   font-size: 18px;
   margin: 15px auto;
-}
-
-.projects {
-  display: flexbox;
 }
 
 .projects a {
