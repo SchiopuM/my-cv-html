@@ -34,32 +34,6 @@ header {
   margin-bottom: 104px;
 }
 
-.menu li a {
-  text-decoration: none;
-  color: #828282;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.menu li a:hover {
-  color: #000;
-}
-
-.menu li {
-  margin-right: auto;
-}
-
-.menu {
-  display: flex;
-  padding-bottom: 31.86px;
-  margin-bottom: 39.7px;
-  border-bottom: 1px solid #828282;
-}
-
-#last-el {
-  margin-right: 3px;
-}
-
 .personal-information {
   display: flex;
   align-items: center;
@@ -124,14 +98,9 @@ header {
   margin: 15px auto;
 }
 
-.projects a {
-  text-decoration: underline;
+.card-body a {
+  text-decoration: none;
   color: #000;
-}
-
-.projects img {
-  width: 936px;
-  margin: 70px auto 20px auto;
 }
 
 .skills {
